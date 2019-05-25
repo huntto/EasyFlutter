@@ -1,6 +1,17 @@
-[TOC]
+目录
+=================
 
-# 让开发Flutter更简单
+* [让Flutter开发更简单](#%E8%AE%A9flutter%E5%BC%80%E5%8F%91%E6%9B%B4%E7%AE%80%E5%8D%95)
+  * [生成assets目录树](#%E7%94%9F%E6%88%90assets%E7%9B%AE%E5%BD%95%E6%A0%91)
+    * [描述](#%E6%8F%8F%E8%BF%B0)
+    * [方法](#%E6%96%B9%E6%B3%95)
+  * [strings\.xml文件转strings\.arb文件](#stringsxml%E6%96%87%E4%BB%B6%E8%BD%ACstringsarb%E6%96%87%E4%BB%B6)
+    * [描述](#%E6%8F%8F%E8%BF%B0-1)
+    * [方法](#%E6%96%B9%E6%B3%95-1)
+  * [参考文档](#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3)
+
+
+# 让Flutter开发更简单
 在开发Flutter应用的过程中，遇到了一些重复性的工作，这里做一个简单的总结。
 
 ## 生成assets目录树
@@ -81,11 +92,13 @@ flutter:
     ```
 3. 将生成的`strings_*.arb`文件拷贝到Flutter i18n插件指定的目录中。
 
-... 持续更新中 ...
-
 ## 参考文档
 [1] [在Flutter中添加资源和图片](https://flutterchina.club/assets-and-images/)
+
 [2] [Python3 JSON 数据解析](https://www.runoob.com/python3/python3-json.html)
+
 [3] [Python3 XML 解析](https://www.runoob.com/python3/python3-xml-processing.html)
+
 [4] [Python模块之命令行参数解析](https://www.cnblogs.com/madsnotes/articles/5687079.html)
+
 [5] [国际化Flutter App](https://flutterchina.club/tutorials/internationalization/)
